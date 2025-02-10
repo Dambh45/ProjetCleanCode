@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "tsx --watch index.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "better-sqlite3": "^8.7.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "drizzle-orm": "^0.16.1",
+    "drizzle-orm-sqlite": "^0.16.1",
+    "express": "^4.21.2",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.4"
+  }
+}
